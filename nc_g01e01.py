@@ -13,4 +13,4 @@ n2 = ui.input('Segundo número')
 ui.button('Sumar', on_click=sumar)
 result = ui.label('Resultado: ')
 
-ui.run()
+ui.run(port=8081)
